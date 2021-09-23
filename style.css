@@ -354,6 +354,16 @@ iframe {
   margin-top: 30px;
 }
 
+.commentLikes {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.7rem;
+  color: gray;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 #sort {
   margin-left: 2em;
 }
@@ -428,6 +438,7 @@ form input:focus {
   height: 120px;
   display: flex;
   gap: 1em;
+  cursor: pointer;
 }
 
 .recThumbnail {
